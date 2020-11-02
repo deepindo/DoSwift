@@ -28,6 +28,10 @@
 		3E6514EF254FD9E20081BE5F /* DoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6514E2254FD9E20081BE5F /* DoVC.swift */; };
 		3E6514F0254FD9E20081BE5F /* DoTabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6514E3254FD9E20081BE5F /* DoTabBarC.swift */; };
 		3E6514F1254FD9E20081BE5F /* DoPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6514E4254FD9E20081BE5F /* DoPermission.swift */; };
+		3E651531254FDBDD0081BE5F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E651530254FDBDD0081BE5F /* HomeVC.swift */; };
+		3E651539254FDBF00081BE5F /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E651538254FDBF00081BE5F /* PostVC.swift */; };
+		3E65153E254FDBFD0081BE5F /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E65153D254FDBFD0081BE5F /* MeVC.swift */; };
+		3E651543254FDD990081BE5F /* DoScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E651542254FDD990081BE5F /* DoScanVC.swift */; };
 		8714A3E311FAC1BA18DED0B5 /* Pods_DoSwift_DoSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEE80F0D66F6EF6A3C88E54 /* Pods_DoSwift_DoSwiftUITests.framework */; };
 		9EBBC4DFC4EFCDEFA702847F /* Pods_DoSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF08D26E07CC1E76B00BC8E /* Pods_DoSwiftTests.framework */; };
 		F4E844384A56FF478B568B2C /* Pods_DoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801CA397D1DDBA4D38193F39 /* Pods_DoSwift.framework */; };
@@ -81,6 +85,10 @@
 		3E6514E2254FD9E20081BE5F /* DoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoVC.swift; sourceTree = "<group>"; };
 		3E6514E3254FD9E20081BE5F /* DoTabBarC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoTabBarC.swift; sourceTree = "<group>"; };
 		3E6514E4254FD9E20081BE5F /* DoPermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoPermission.swift; sourceTree = "<group>"; };
+		3E651530254FDBDD0081BE5F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3E651538254FDBF00081BE5F /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		3E65153D254FDBFD0081BE5F /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		3E651542254FDD990081BE5F /* DoScanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoScanVC.swift; sourceTree = "<group>"; };
 		485778F36A3FF25EB00A05DE /* Pods-DoSwift-DoSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoSwift-DoSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-DoSwift-DoSwiftUITests/Pods-DoSwift-DoSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5AE8B60763A7D5F8FE1A8876 /* Pods-DoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoSwift.debug.xcconfig"; path = "Target Support Files/Pods-DoSwift/Pods-DoSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		5B2D71056B9D60BC282AFA5B /* Pods-DoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoSwift.release.xcconfig"; path = "Target Support Files/Pods-DoSwift/Pods-DoSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 		3E651317254F95850081BE5F = {
 			isa = PBXGroup;
 			children = (
+				3E6514F5254FDA380081BE5F /* Modules */,
 				3E6514D1254FD9E20081BE5F /* Do */,
 				3E651322254F95850081BE5F /* DoSwift */,
 				3E651339254F95880081BE5F /* DoSwiftTests */,
@@ -226,12 +235,47 @@
 		3E6514E0254FD9E20081BE5F /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				3E651542254FDD990081BE5F /* DoScanVC.swift */,
 				3E6514E1254FD9E20081BE5F /* DoNavC.swift */,
 				3E6514E2254FD9E20081BE5F /* DoVC.swift */,
 				3E6514E3254FD9E20081BE5F /* DoTabBarC.swift */,
 				3E6514E4254FD9E20081BE5F /* DoPermission.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		3E6514F5254FDA380081BE5F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3E65152D254FDBAD0081BE5F /* Home */,
+				3E65152F254FDBC30081BE5F /* Post */,
+				3E65152E254FDBBE0081BE5F /* Me */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3E65152D254FDBAD0081BE5F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3E651530254FDBDD0081BE5F /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3E65152E254FDBBE0081BE5F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				3E65153D254FDBFD0081BE5F /* MeVC.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		3E65152F254FDBC30081BE5F /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				3E651538254FDBF00081BE5F /* PostVC.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 		4F020302C9ADF32E0E672749 /* Frameworks */ = {
@@ -499,14 +543,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E65153E254FDBFD0081BE5F /* MeVC.swift in Sources */,
 				3E6514EE254FD9E20081BE5F /* DoNavC.swift in Sources */,
+				3E651531254FDBDD0081BE5F /* HomeVC.swift in Sources */,
 				3E6514ED254FD9E20081BE5F /* DoAlamofireNetwork.swift in Sources */,
 				3E6514F0254FD9E20081BE5F /* DoTabBarC.swift in Sources */,
 				3E651328254F95850081BE5F /* ViewController.swift in Sources */,
+				3E651543254FDD990081BE5F /* DoScanVC.swift in Sources */,
 				3E6514EC254FD9E20081BE5F /* DoNetworkConfig.swift in Sources */,
 				3E6514EA254FD9E20081BE5F /* DoAlamofireAPI.swift in Sources */,
 				3E6514EB254FD9E20081BE5F /* DoRequests.swift in Sources */,
 				3E651324254F95850081BE5F /* AppDelegate.swift in Sources */,
+				3E651539254FDBF00081BE5F /* PostVC.swift in Sources */,
 				3E651326254F95850081BE5F /* SceneDelegate.swift in Sources */,
 				3E6514F1254FD9E20081BE5F /* DoPermission.swift in Sources */,
 				3E6514E5254FD9E20081BE5F /* ScanViewController.m in Sources */,

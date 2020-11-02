@@ -27,7 +27,7 @@ class DoTabBarC: UITabBarController {
     private func prepareChild() {
      
         addControllers(HomeVC(), "首页", "home", 0)
-        addControllers(PickingVC(), "领料", "picking", 1)
+        addControllers(PostVC(), "发布", "picking", 1)
         addControllers(MeVC(), "我的", "me", 2)
     }
     
