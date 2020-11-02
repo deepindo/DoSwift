@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BRPickerView (2.7.0):
+    - BRPickerView/AddressPickerView (= 2.7.0)
+    - BRPickerView/Base (= 2.7.0)
+    - BRPickerView/DatePickerView (= 2.7.0)
+    - BRPickerView/StringPickerView (= 2.7.0)
+  - BRPickerView/AddressPickerView (2.7.0):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.7.0)
+  - BRPickerView/DatePickerView (2.7.0):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.7.0):
+    - BRPickerView/Base
+  - DoKit (0.2.2)
+  - EmptyKit (4.2.0)
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - MJRefresh (3.5.0)
+  - NVActivityIndicatorView (5.0.1):
+    - NVActivityIndicatorView/Base (= 5.0.1)
+  - NVActivityIndicatorView/Base (5.0.1)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BRPickerView
+  - DoKit
+  - EmptyKit
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - MJRefresh
+  - NVActivityIndicatorView
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/deepindo/DoSpecs.git:
+    - DoKit
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - BRPickerView
+    - EmptyKit
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - MJRefresh
+    - NVActivityIndicatorView
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BRPickerView: 882991201e8a27b9f41e4b6888d2871418e71f84
+  DoKit: d9aeacca95558a28c17af22dfae1531973ad7f32
+  EmptyKit: 95d75cad79476379124e929488116e409043c1d5
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  NVActivityIndicatorView: 738e843cb8924e9e4fc3e559d0728031624bf860
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 41932bb6a841fdaa2eb0f2c60aba3c4641973656
+
+COCOAPODS: 1.9.1

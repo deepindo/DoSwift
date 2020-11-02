@@ -1,0 +1,6 @@
+framework module DoKit {
+  umbrella header "DoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
