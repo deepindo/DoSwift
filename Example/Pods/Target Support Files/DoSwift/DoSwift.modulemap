@@ -1,0 +1,6 @@
+framework module DoSwift {
+  umbrella header "DoSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

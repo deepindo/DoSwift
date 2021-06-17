@@ -1,6 +1,0 @@
-framework module Pods_DoSwift {
-  umbrella header "Pods-DoSwift-umbrella.h"
-
-  export *
-  module * { export * }
-}

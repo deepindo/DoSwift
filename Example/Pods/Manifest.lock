@@ -1,0 +1,27 @@
+PODS:
+  - DoSwift (0.0.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DoSwift (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DoSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DoSwift: 2e8123224271309c8074491e2b03bca5d9bd322a
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 80c945ea358a5b972cea579cc7d61e2ceb4733db
+
+COCOAPODS: 1.10.1
